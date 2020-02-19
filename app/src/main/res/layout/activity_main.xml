@@ -35,9 +35,11 @@
             android:layout_weight="10"/>
 
         <ImageButton
+            android:id="@+id/ib"
             android:layout_width="match_parent"
             android:layout_height="0px"
             android:layout_weight="25"
+            android:onClick="change"
             android:src="@drawable/click">
         </ImageButton>
 
